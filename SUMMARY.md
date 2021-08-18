@@ -2,7 +2,7 @@
 
 * [ReadMe](README.md)
 
-## 深度前馈网络
+## deep feed forward network <a id="shen-du-qian-kui-wang-luo"></a>
 
-* [引言](shen-du-qian-kui-wang-luo/yin-yan.md)
+* [intro](shen-du-qian-kui-wang-luo/yin-yan.md)
 
