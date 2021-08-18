@@ -8,4 +8,5 @@
 * [Learning XOR](shen-du-qian-kui-wang-luo/learning-xor.md)
 * [Gradient Learning](shen-du-qian-kui-wang-luo/gradient-learning/README.md)
   * [Loss Function](shen-du-qian-kui-wang-luo/gradient-learning/loss-function.md)
+  * [Output Unit](shen-du-qian-kui-wang-luo/gradient-learning/output-unit.md)
 

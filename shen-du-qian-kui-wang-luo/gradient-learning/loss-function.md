@@ -30,8 +30,6 @@ $$J(\theta) = -\mathbf{E}_{x,y ～ \hat p_{data}}\log{p_{model}(y|x)}$$
 * **最大对数似然估计：** $$\log P(X|\theta) = \sum \log P(x^{i} | \theta)$$两边取对数，乘法变加法
 * **代入期望：**  $$\sum \log P(x^{i} | \theta) = \sum p_{x,y ～ \hat p_{data}} \log p_{model}(y|x) = m \mathbf{E_{x,y ～\hat p_{data}}}\log p_{model}(y|x)$$理解成 概率\*值的和的形式，概率是真实的数据分布，值是模型给出的分布的对数
 
-
-
 ### 优点：
 
 1. 减轻了为每个模型设计代价函数的负担。即对于任意模型$$p(y|x)$$, 代价函数就是$$\log p(y|x)$$
@@ -40,8 +38,6 @@ $$J(\theta) = -\mathbf{E}_{x,y ～ \hat p_{data}}\log{p_{model}(y|x)}$$
 ### 特性：
 
 * 没有最小值
-
-
 
 ### 实操：使用交叉熵
 
@@ -52,5 +48,21 @@ $$J(\theta) = -\mathbf{E}_{x,y ～ \hat p_{data}}\log{p_{model}(y|x)}$$
 * 整合上两式，用一个统一的表达式：$$p_{model}(y|x) =\sigma(z)^{y}(1-\sigma(z)^{1-y})$$
 * 代入数学期望，有$$ J(x) = -y\log\sigma(z) -(1-y)(1-\log\sigma(z))$$ 理解就是，前一项是y=1时，后一项是y=0时
 
+### 2. 学习条件统计量
 
+{% hint style="info" %}
+学习$$p(f(y) | x ;\theta)$$而不是$$p(y|\theta)$$
+{% endhint %}
+
+一个预测器$$f(x;\theta)$$表示以$$x$$为输入，$$\theta$$为参数。想用它来预测$$y$$的均值。那可以把这个神经网络的各部分理解为一个范函。
+
+#### 泛函：
+
+{% hint style="info" %}
+范函是一个函数到数的映射
+{% endhint %}
+
+如果我们通过希望找到其中满足特殊条件的函数，可以通过设计代价泛函来得到。对函数的求解优化需要用到变分法，原理上和求导等于零类似，把优化问题转化成微分方程的形式。
+
+例如，如果我们希望是的神经网络优化的最终结果是输入能给出给定$$x$$, $$y$$的期望值（回归问题），我们可以通过变分法，将优化问题$$f^{*} = \arg_{f}\min\mathbf{E}_{x,y～p_{data}}|| y-f(x)||^{2}$$求得$$ f^{*}(x)=\mathbf{E}_{y～p_{data}(y|x)}[y]$$。所以，如果我们以这个函数作为loss function，则可以得到我们想要的功能。
 
