@@ -14,4 +14,8 @@
     * [Softmax Unit](shen-du-qian-kui-wang-luo/gradient-learning/output-unit/softmax-unit.md)
   * [Hidden Unit](shen-du-qian-kui-wang-luo/gradient-learning/hidden-unit/README.md)
     * [ReLU and extensions](shen-du-qian-kui-wang-luo/gradient-learning/hidden-unit/relu-and-extensions.md)
+    * [Logistic Sigmoid](shen-du-qian-kui-wang-luo/gradient-learning/hidden-unit/logistic-sigmoid.md)
+    * [Others](shen-du-qian-kui-wang-luo/gradient-learning/hidden-unit/others.md)
+  * [Architecture Design](shen-du-qian-kui-wang-luo/gradient-learning/architecture-design/README.md)
+    * [Universal Approximation Theorem](shen-du-qian-kui-wang-luo/gradient-learning/architecture-design/universal-approximation-theorem.md)
 
