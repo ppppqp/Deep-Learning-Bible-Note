@@ -18,6 +18,7 @@
     * [Others](shen-du-qian-kui-wang-luo/gradient-learning/hidden-unit/others.md)
   * [Architecture Design](shen-du-qian-kui-wang-luo/gradient-learning/architecture-design/README.md)
     * [Universal Approximation Theorem](shen-du-qian-kui-wang-luo/gradient-learning/architecture-design/universal-approximation-theorem.md)
-* [BackProp](shen-du-qian-kui-wang-luo/backprop.md)
-* [Regularization](shen-du-qian-kui-wang-luo/regularization.md)
+* [Regularization](shen-du-qian-kui-wang-luo/regularization/README.md)
+  * [Parameter Norm Penalty](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/README.md)
+    * [L2 Regularization](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/l2-regularization.md)
 
