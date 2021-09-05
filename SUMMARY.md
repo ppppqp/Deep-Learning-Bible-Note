@@ -21,4 +21,5 @@
 * [Regularization](shen-du-qian-kui-wang-luo/regularization/README.md)
   * [Parameter Norm Penalty](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/README.md)
     * [L2 Regularization](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/l2-regularization.md)
+    * [L1 Regularization](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/l1-regularization.md)
 
