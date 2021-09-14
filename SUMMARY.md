@@ -22,4 +22,8 @@
   * [Parameter Norm Penalty](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/README.md)
     * [L2 Regularization](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/l2-regularization.md)
     * [L1 Regularization](shen-du-qian-kui-wang-luo/regularization/parameter-norm-penalty/l1-regularization.md)
+  * [Norm Penalty as Constraints](shen-du-qian-kui-wang-luo/regularization/norm-penalty-as-constraints.md)
+  * [Regularization and Underconstrained Problem](shen-du-qian-kui-wang-luo/regularization/regularization-and-underconstrained-problem.md)
+  * [Data Augmentation](shen-du-qian-kui-wang-luo/regularization/data-augmentation.md)
+  * [Robustness](shen-du-qian-kui-wang-luo/regularization/robustness.md)
 
