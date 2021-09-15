@@ -26,4 +26,5 @@
   * [Regularization and Underconstrained Problem](shen-du-qian-kui-wang-luo/regularization/regularization-and-underconstrained-problem.md)
   * [Data Augmentation](shen-du-qian-kui-wang-luo/regularization/data-augmentation.md)
   * [Robustness](shen-du-qian-kui-wang-luo/regularization/robustness.md)
+  * [Semi-supervised Learning](shen-du-qian-kui-wang-luo/regularization/semi-supervised-learning.md)
 
