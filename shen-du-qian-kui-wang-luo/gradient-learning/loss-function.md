@@ -24,11 +24,15 @@ $$J(\theta) = -\mathbf{E}_{x,y ～ \hat p_{data}}\log{p_{model}(y|x)}$$
 * $$\mathbf{E}_{x,y～\hat p_{data}}$$:符合训练数据的随机变量的分布的数学期望
 * $$p_{model}$$符合模型数据的随机变量的数学期望
 
+{% hint style="info" %}
+交叉熵用以描述两个概率分布的相似度，$$ J = \sum p_1(x) \log p_2(x)$$
+{% endhint %}
+
 以上就是交叉熵的公式。想知道为什么是这样？可以参考[交叉熵和最大似然估计简介](https://windmising.gitbook.io/mathematics-basic-for-ml/gai-shuai-lun/likelihood#jiao-cha-shang)。简单理解需要以下公式：
 
 * **最大似然公式：**$$P(X|\theta) = P(x^{(1)}|\theta)P(x^{(2)}|\theta)...P(x^{(n)}|\theta)$$ ，简单来说就是对于这一系列参数，随机变量输入可能是这些值的概率。最大似然估计就是找$$\theta$$使得$$P(X|\theta)$$最大。
 * **最大对数似然估计：** $$\log P(X|\theta) = \sum \log P(x^{i} | \theta)$$两边取对数，乘法变加法
-* **代入期望：**  $$\sum \log P(x^{i} | \theta) = \sum p_{x,y ～ \hat p_{data}} \log p_{model}(y|x) = m \mathbf{E_{x,y ～\hat p_{data}}}\log p_{model}(y|x)$$理解成 概率\*值的和的形式，概率是真实的数据分布，值是模型给出的分布的对数
+* **代入期望：**  $$\sum \log P(x^{i} | \theta) = \sum p_{x,y ～ \hat p_{data}} \log p_{model}(y|x) = m \mathbf{E_{x,y ～\hat p_{data}}}\log p_{model}(y|x)$$理**解成 概率\*值的和的形式**，概率是真实的数据分布，值是模型给出的分布的对数
 
 ### 优点：
 
