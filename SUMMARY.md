@@ -27,4 +27,11 @@
   * [Data Augmentation](shen-du-qian-kui-wang-luo/regularization/data-augmentation.md)
   * [Robustness](shen-du-qian-kui-wang-luo/regularization/robustness.md)
   * [Semi-supervised Learning](shen-du-qian-kui-wang-luo/regularization/semi-supervised-learning.md)
+  * [Multi-task Learning](shen-du-qian-kui-wang-luo/regularization/multi-task-learning.md)
+  * [Early Stopping](shen-du-qian-kui-wang-luo/regularization/early-stopping.md)
+  * [Parameter Sharing](shen-du-qian-kui-wang-luo/regularization/parameter-sharing.md)
+  * [Sparse Representation](shen-du-qian-kui-wang-luo/regularization/sparse-representation.md)
+  * [Bagging](shen-du-qian-kui-wang-luo/regularization/bagging.md)
+  * [Dropout](shen-du-qian-kui-wang-luo/regularization/dropout.md)
+  * [Adversarial Training](shen-du-qian-kui-wang-luo/regularization/adversarial-training.md)
 
